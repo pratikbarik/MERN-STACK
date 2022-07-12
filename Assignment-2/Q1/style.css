@@ -1,0 +1,47 @@
+body{
+    background :url(1.jpg);
+    background-size: 70%
+}
+.form_container{
+    width: 25%;
+    padding: 40px;
+    margin: 1px auto 50px;
+    font-size: 18px;
+    background-color: rgb(135, 173, 255);
+    border-radius: 7px;
+    border: 1px soid rgba(67, 93, 227, 0.959);
+    box-shadow: 2px 2px 15px rgba(255, 175, 175, 0.3);
+    color:rgb(0, 0, 0);
+    
+}
+h2{
+    text-align: center;
+    padding: 50px;
+    font-family: sans-serif;
+}
+.form_element{
+    width:100%;
+    margin: 2px 4px;
+  
+    
+    
+}
+input[type=submit]{
+    width:170px;
+    height: 40px;
+    text-align: center;
+    background-color: rgb(110, 168, 255);
+    color: #fff;
+    border-radius: 10px;
+    font-size:20px
+}
+input[type=text]
+{
+    width:50%;
+    height:20% ;
+}
+input[type=email]
+{
+    width:50%;
+    height:20% ;
+}
