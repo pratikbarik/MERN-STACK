@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>javascript</title>
+</head>
+<body>
+    
+</body>
+<script>
+   let numbers=Number(prompt(`Enter the no. of elements`))
+    let arr=[];
+    for(let i=0;i<numbers;i++)
+    {
+        let num= Number(prompt(`Enter the ${i} element`));
+        arr.push(num);
+    }
+    console.log(arr);
+    let avg =(a) =>
+    {
+        let sum=0;
+        let ncount=0;
+        for(let j =0;j<numbers;j++)
+        {
+            if(arr[j]<0)
+            {
+                ncount++;
+                sum+=arr[j];
+            }
+        }
+        return sum/ncount;
+    }
+    console.log(`THE AVERAGE IS ${avg(arr)}`);
+</script>
+
+</html>

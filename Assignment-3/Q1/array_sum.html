@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>javascript</title>
+</head>
+<body>
+    
+</body>
+<script>
+  let ele=Number(prompt(`ENTER THE NO OF ELEMENTS :`));
+  let arr=[];
+  for(let i=0;i<ele;i++){
+  let num= Number(prompt(`enter ${i} element`));
+  arr.push(num);
+}
+console.log(arr);
+let sum=0;
+for(let j =0;j<ele;j++){
+    sum=sum+arr[j];    
+}
+if(sum>0 && sum%2==0 && sum%3==0){
+      console.log(`THE SUM IS ${sum}`);
+    }
+else{
+  console.log('CONDITION NOT SATISFIED !');
+}
+</script>
+</html>
