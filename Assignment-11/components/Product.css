@@ -1,0 +1,58 @@
+.page{
+    background-color: #cba8a5;
+
+}
+
+.product_container{
+    width: 30%;
+    float: left;
+    margin: 10px 10px;
+    box-shadow: 10px 10px 10px 5px #1a0101;
+    padding: 10px;
+    background-color: #39645f;
+}
+
+.product_title{
+    font-weight: bold;
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #E6EBE0;
+}
+
+.product_image{
+    width: 100%;
+}
+
+.product_image img{
+    width: 100%;
+}
+
+.product_price{
+    font-weight: bold;
+    font-size: 16px;
+    width: 50%;
+    float: left;
+}
+.product_created_by{
+    font-weight: bold;
+    font-size: 16px;
+    width: 50%;
+    float: left;
+    text-align: right;
+}
+
+.btn_container{
+    text-align: right;
+    width: 100%;
+}
+
+.buy_now{
+    background: #cd7312;
+    border: 2px solid #000000;
+    margin-top: 20px;
+    padding: 10px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+    border-radius:20px;
+}
